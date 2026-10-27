@@ -1,0 +1,19 @@
+# 依赖
+node_modules/
+
+# 机密：绝不要提交（里面是 DashScope API Key）
+server/.env
+
+# 运行时产生的数据
+server/db/
+server/users.json
+
+# 压缩包 / 临时文件
+*.zip
+*.log
+
+# IDE 本地索引（每人一份，提交了也没用）
+.codeartsdoer/.codebase/
+.codeartsdoer/temp/
+.merkle-snapshot.json
+harmony/.merkle-snapshot.json
